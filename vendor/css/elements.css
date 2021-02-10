@@ -349,9 +349,9 @@ a{text-decoration: none;}
 
 .elements-boxes .color-white {color: #484b59;}
 .elements-boxes .color-light-gw {color: #f7f7f7;}
-.elements-boxes .color-yellow {color: #f1c30f;}
+.elements-boxes .color-yellow {color: #ffc42a;}
 .elements-boxes .color-pink {color: #e57bff;}
-.elements-boxes .color-blue {color: #84a1d2;}
+.elements-boxes .color-blue {color: #00abf8;}
 
 .elements-boxes .bg-white {
     background-color: #ffffff;
@@ -2202,8 +2202,8 @@ a{text-decoration: none;}
 }
 
 .ui-block-11.about .btn-yellow {
-    border-color: #f1c30f;
-    background-color: #f1c30f;
+    border-color: #ffc42a;
+    background-color: #ffc42a;
     color: #ffffff;
 }
 
@@ -2237,7 +2237,7 @@ a{text-decoration: none;}
     position: relative;
     z-index: 1;
     overflow: hidden;
-    border: 1px solid #f1c30f;
+    border: 1px solid #ffc42a;
     -webkit-transition: all .5s ease;
     -o-transition: all .5s ease;
     transition: all .5s ease !important;
@@ -3111,8 +3111,8 @@ a{text-decoration: none;}
 }
 
 .ui-block-15.about .btn-yellow {
-    border-color: #f1c30f;
-    background-color: #f1c30f;
+    border-color: #ffc42a;
+    background-color: #ffc42a;
     color: #ffffff;
 }
 
@@ -3146,7 +3146,7 @@ a{text-decoration: none;}
     position: relative;
     z-index: 1;
     overflow: hidden;
-    border: 1px solid #f1c30f;
+    border: 1px solid #ffc42a;
     -webkit-transition: all .5s ease;
     -o-transition: all .5s ease;
     transition: all .5s ease !important;
@@ -11722,7 +11722,7 @@ section.ui-block-25 {
     left: 0;
     width:0;
     height:0;
-    border: 55px solid #f1c30f;
+    border: 55px solid #ffc42a;
     border-right-color: transparent;
     border-bottom-color: transparent;
     z-index: 0;
@@ -11772,14 +11772,14 @@ section.ui-block-25 {
 }
 
 .ui-block-01.pricing .pricing-item .btn-yellow {
-    border-color: #f1c30f;
-    background-color: #f1c30f;
+    border-color: #ffc42a;
+    background-color: #ffc42a;
     color: #fff;
 }
 
 .ui-block-01.pricing .pricing-item .btn-blue {
-    border-color: #84a1d2;
-    background-color: #84a1d2;
+    border-color: #00abf8;
+    background-color: #00abf8;
     color: #fff;
 }
 
@@ -11792,19 +11792,19 @@ section.ui-block-25 {
     border-color: #ffffff;
 }
 
-.ui-block-01.pricing .color-yellow {color: #f1c30f;}
+.ui-block-01.pricing .color-yellow {color: #ffc42a;}
 
 .ui-block-01.pricing .color-pink {color: #e57bff;}
 
-.ui-block-01.pricing .color-blue {color: #84a1d2;}
+.ui-block-01.pricing .color-blue {color: #00abf8;}
 
 .ui-block-01.pricing .bg-light-gray {background-color: #f9f9f9;}
 
-.ui-block-01.pricing .bg-yellow, .ui-block-01.pricing .hvr-bg-yellow:hover {background-color: #f1c30f;}
+.ui-block-01.pricing .bg-yellow, .ui-block-01.pricing .hvr-bg-yellow:hover {background-color: #ffc42a;}
 
 .ui-block-01.pricing .bg-pink, .ui-block-01.pricing .hvr-bg-pink:hover  {background-color: #e57bff;}
 
-.ui-block-01.pricing .bg-blue, .ui-block-01.pricing .hvr-bg-blue:hover {background-color: #84a1d2;}
+.ui-block-01.pricing .bg-blue, .ui-block-01.pricing .hvr-bg-blue:hover {background-color: #00abf8;}
 
 .ui-block-01.pricing .main-title {
     position: relative;
@@ -11876,8 +11876,8 @@ section.ui-block-25 {
 }
 
 .ui-block-01.pricing .btn-yellow {
-    border-color: #f1c30f;
-    background-color: #f1c30f;
+    border-color: #ffc42a;
+    background-color: #ffc42a;
     color: #ffffff;
 }
 
@@ -11888,8 +11888,8 @@ section.ui-block-25 {
 }
 
 .ui-block-01.pricing .btn-blue {
-    border-color: #84a1d2;
-    background-color: #84a1d2;
+    border-color: #00abf8;
+    background-color: #00abf8;
     color: #ffffff;
 }
 
@@ -11910,11 +11910,11 @@ section.ui-block-25 {
 }
 
 .ui-block-01.pricing .btn-hvr-yellow:after {
-    background-color: #f1c30f;
+    background-color: #ffc42a;
 }
 
 .ui-block-01.pricing .btn-hvr-yellow:hover {
-    border-color: #f1c30f;
+    border-color: #ffc42a;
     color: #ffffff;
 }
 
@@ -11928,7 +11928,7 @@ section.ui-block-25 {
 }
 
 .ui-block-01.pricing .btn-hvr-blue:after {
-    background-color: #84a1d2;
+    background-color: #00abf8;
 }
 
 .ui-block-01.pricing .btn-hvr-white:after {
@@ -14848,7 +14848,7 @@ section.ui-block-25 {
 }
 
 .ui-block-02.blog.bg-yellow, .hvr-bg-yellow:hover {
-    background-color: #f1c30f;
+    background-color: #ffc42a;
 }
 
 .ui-block-02.blog.half-section{
@@ -14940,8 +14940,8 @@ section.ui-block-25 {
 }
 
 .ui-block-02.blog .btn-blue {
-    border-color: #84a1d2;
-    background-color: #84a1d2;
+    border-color: #00abf8;
+    background-color: #00abf8;
     color: #ffffff;
 }
 
@@ -17843,11 +17843,11 @@ section.ui-block-25 {
 }
 
 .ui-block-03.team-sec .team-classic-content.yellow:before {
-    background: #f1c30f;
+    background: #ffc42a;
 }
 
 .ui-block-03.team-sec .team-classic-content.blue:before {
-    background: #84a1d2;
+    background: #00abf8;
 }
 
 /*Hover for team1 and team 3*/
@@ -18068,11 +18068,11 @@ section.ui-block-25 {
 .ui-block-03.team-sec .color-black { color: #212622; }
 .ui-block-03.team-sec .color-white {color: #ffffff;}
 .ui-block-03.team-sec .color-light-gw {color: #f7f7f7;}
-.ui-block-03.team-sec .color-yellow {color: #f1c30f;}
+.ui-block-03.team-sec .color-yellow {color: #ffc42a;}
 .ui-block-03.team-sec .color-pink {color: #e57bff;}
-.ui-block-03.team-sec .color-blue {color: #84a1d2;}
+.ui-block-03.team-sec .color-blue {color: #00abf8;}
 .ui-block-03.team-sec .text-black { color: #212622 !important;}
-.ui-block-03.team-sec .text-yellow {color: #f1c30f !important;}
+.ui-block-03.team-sec .text-yellow {color: #ffc42a !important;}
 
 .ui-block-03.team-sec .facebook-bg-hvr:hover{background:#4267B2 !important;color: #fff !important; border: 1px solid transparent !important;}
 .ui-block-03.team-sec .twitter-bg-hvr:hover{background:#1DA1F2 !important;color: #fff !important; border: 1px solid transparent !important;}
@@ -22653,7 +22653,7 @@ section.ui-block-25 {
 }
 
 .ui-block-11.testimonial-sec .testimonial-post:hover a, .ui-block-11.testimonial-sec .testimonial-post:focus a {
-    color: #f1c30f;
+    color: #ffc42a;
 }
 
 .ui-block-11.testimonial-sec .testimonial-two .testimonial-para:before{
@@ -22676,7 +22676,7 @@ section.ui-block-25 {
 
 .ui-block-11.testimonial-sec .testimonial-two .testimonial-item .rating i{
     font-size: 15px;
-    color: #f1c30f;
+    color: #ffc42a;
 }
 
 .ui-block-11.testimonial-sec.bg-img{
@@ -25045,7 +25045,7 @@ section,.section-padding {position: relative;padding: 7.5rem 0;overflow: hidden;
 }
 
 .ui-block-12.quote .color-yellow {
-    color: #f1c30f;
+    color: #ffc42a;
 }
 
 .ui-block-12.quote .quote-text {
