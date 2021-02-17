@@ -1,10 +1,24 @@
-/*-- Use For Custom Styling --*/
-/* Global */
-@font-face {
-    font-family: 'Bungee Inline';
-    src: url('fonts/bungee/BungeeInline-Regular.ttf') format('truetype'), /* Safari, Android, iOS */
-}
-
-/* Section 1 */
-
-/* Section 2 */
+                        /*-- Use For Custom Styling --*/
+                        /* Global */
+                        
+                        @font-face {
+                            font-family: 'Bungee Inline';
+                            src: url('fonts/bungee/BungeeInline-Regular.ttf') format('truetype'), /* Safari, Android, iOS */
+                        }
+                        /* Section 1 */
+                        
+                        .background-cover-page {
+                            background: url('/creative-studio/img/fondoPortada1.jpg');
+                            background-position: center;
+                            background-repeat: no-repeat;
+                            background-size: cover;
+                            background-attachment: fixed;
+                        }
+                        
+                        .logo-wise {
+                            text-align: center;
+                        }
+                        
+                        .logo-wise img {
+                            padding-top: 80px;
+                        }
