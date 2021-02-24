@@ -8,7 +8,7 @@
                         /* Section 1 */
                         
                         .background-cover-page {
-                            background: url('/creative-studio/img/fondoPortada1.jpg');
+                            background: url('/creative-studio/img/fondoPortada3.jpg');
                             background-position: center;
                             background-repeat: no-repeat;
                             background-size: cover;
@@ -16,9 +16,30 @@
                         }
                         
                         .logo-wise {
+                            position: absolute;
+                            display: inline-block;
+                            z-index: 50;
+                            margin-left: auto;
+                            margin-right: auto;
+                            left: 0;
+                            right: 0;
                             text-align: center;
+                            padding-top: 80px;
                         }
                         
-                        .logo-wise img {
-                            padding-top: 80px;
+                        .motivation {
+                            margin-left: auto;
+                            margin-right: auto;
+                            left: 0;
+                            right: 0;
+                            text-align: center;
+                            margin-top: 45px;
+                        }
+                        
+                        .motivation-text-shadow {
+                            text-shadow: 2px 2px 5px white;
+                        }
+                        
+                        .egresados-shadow {
+                            text-shadow: 1px 1px 2px black;
                         }
