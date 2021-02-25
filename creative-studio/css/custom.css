@@ -1,73 +1,67 @@
-                        /*-- Use For Custom Styling --*/
-                        /* Global */
-                        
-                        @font-face {
-                            font-family: 'Bungee Inline';
-                            src: url('fonts/bungee/BungeeInline-Regular.ttf') format('truetype'), /* Safari, Android, iOS */
-                        }
-                        /* Section 1 */
-                        
-                        .background-cover-page {
-                            background: url('/creative-studio/img/fondoPortada3.jpg');
-                            background-position: center;
-                            background-repeat: no-repeat;
-                            background-size: cover;
-                            background-attachment: fixed;
-                        }
-                        
-                        .logo-wise {
-                            position: absolute;
-                            display: inline-block;
-                            z-index: 50;
-                            margin-left: auto;
-                            margin-right: auto;
-                            left: 0;
-                            right: 0;
-                            text-align: center;
-                            padding-top: 80px;
-                        }
-                        
-                        .motivation {
-                            margin-left: auto;
-                            margin-right: auto;
-                            left: 0;
-                            right: 0;
-                            text-align: center;
-                            margin-top: 45px;
-                        }
-                        
-                        .motivation-text-shadow {
-                            text-shadow: 2px 2px 4px black;
-                        }
-                        
-                        .egresados-shadow {
-                            text-shadow: 1px 1px 2px black;
-                        }
-                        
-                        .bg-pink-two {
-                            background-color: #ffc42a;
-                        }
-                        
-                        .create-btn {
-                            font-size: 20px;
-                            font-weight: 600;
-                        }
-                        /* .btn-setting2 {
-                            padding: 9px 34px;
-                            width: auto;
-                            display: inline-block;
-                            font-weight: 400;
-                            line-height: 25px;
-                            font-size: 15px;
-                            text-transform: capitalize;
-                            text-align: center;
-                            -webkit-border-radius: 36px;
-                            border-radius: 36px;
-                            position: relative;
-                            z-index: 1;
-                            overflow: hidden;
-                            border: 1px solid #acacac;
-                            -webkit-transition: all .5s ease;
-                            -o-transition: all .5s ease;
-                            transition: all .5s ease !important;
-                        } */
+                            /*-- Use For Custom Styling --*/
+                            /* Global */
+                            
+                            @font-face {
+                                font-family: 'Bungee Inline';
+                                src: url('fonts/bungee/BungeeInline-Regular.ttf') format('truetype'), /* Safari, Android, iOS */
+                            }
+                            /* Section 1 */
+                            
+                            .background-cover-page {
+                                background: url('/creative-studio/img/fondoPortada3.jpg');
+                                background-position: center;
+                                background-repeat: no-repeat;
+                                background-size: cover;
+                                background-attachment: fixed;
+                            }
+                            
+                            .logo-wise {
+                                position: absolute;
+                                display: inline-block;
+                                z-index: 50;
+                                margin-left: auto;
+                                margin-right: auto;
+                                left: 0;
+                                right: 0;
+                                text-align: center;
+                                padding-top: 80px;
+                            }
+                            
+                            .motivation {
+                                margin-left: auto;
+                                margin-right: auto;
+                                left: 0;
+                                right: 0;
+                                text-align: center;
+                                margin-top: 80px;
+                            }
+                            
+                            .motivation-text-shadow {
+                                text-shadow: 2px 2px 4px black;
+                            }
+                            
+                            .egresados-shadow {
+                                text-shadow: 1px 1px 2px black;
+                            }
+                            
+                            .bg-pink-two {
+                                background-color: #ffc42a;
+                            }
+                            
+                            .create-btn {
+                                font-size: 20px;
+                                font-weight: 600;
+                            }
+                            
+                            .pinterest-bg-hvr:hover {
+                                background: #00abf8 !important;
+                            }
+                            
+                            .instagram-bg-hvr:hover {
+                                background: #00abf8 !important;
+                            }
+                            
+                            .navbar-top-default .navbar-nav .nav-link {
+                                font-weight: 800;
+                                text-shadow: 2px 2px 15px white;
+                            }
