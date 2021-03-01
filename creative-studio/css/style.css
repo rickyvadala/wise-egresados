@@ -1042,7 +1042,7 @@ nav .btn-setting {
 /*icon bg hover */
 
 .facebook-bg-hvr:hover {
-    background: agra#4267B2 !important;
+    background: #4267B2 !important;
     color: #fff !important;
     border: 1px solid transparent !important;
 }
@@ -1455,7 +1455,7 @@ header.header-appear .transparent-bg.navbar-top-default .header-social a {
 }
 
 header.header-appear .navbar-top-default .header-social a.facebook-text-hvr:hover {
-    background: #4267B2;
+    background: #4267B2 !important;
     color: #ffffff !important;
 }
 
