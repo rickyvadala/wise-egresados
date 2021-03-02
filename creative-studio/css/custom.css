@@ -26,18 +26,29 @@
                                 text-align: center;
                                 padding-top: 80px;
                             }
+                            /* .rev_slider img, */
+                            
+                            .tp-simpleresponsive img {
+                                max-width: -webkit-fill-available !important;
+                                transition: none;
+                                margin: 0;
+                                padding: 0;
+                                border: none;
+                            }
                             
                             .motivation {
+                                /* font-size: 26px; */
                                 margin-left: auto;
                                 margin-right: auto;
                                 left: 0;
                                 right: 0;
                                 text-align: center;
-                                margin-top: 80px;
+                                margin-top: 30px;
+                                color: rgb(255, 39, 89);
                             }
                             
                             .motivation-text-shadow {
-                                text-shadow: 2px 2px 15px white;
+                                text-shadow: 3px 3px 5px white;
                             }
                             
                             .egresados-shadow {
@@ -49,6 +60,22 @@
                                 background-color: #ffc42a;
                             }
                             
+                            .bg-face {
+                                background-color: rgb(66, 103, 178, 0.7)
+                            }
+                            
+                            .bg-twitter {
+                                background-color: rgb(0, 171, 248, 0.7)
+                            }
+                            
+                            .bg-pinterest {
+                                background-color: rgb(189, 8, 28, 0.7)
+                            }
+                            
+                            .bg-instagram {
+                                background-color: rgb(195, 42, 163, 0.7)
+                            }
+                            
                             .create-btn {
                                 font-size: 25px;
                                 font-weight: 600;
@@ -56,10 +83,41 @@
                             
                             .rev_slider .btn-setting {
                                 border: none;
-                                margin-top: 140px;
+                                margin-top: 110px;
                             }
                             
                             .navbar-top-default {
                                 font-weight: 800;
-                                background-color: rgba(255, 255, 255, 0.4);
+                                background-color: rgba(255, 255, 255, 0.6);
+                            }
+                            
+                            @media (max-width: 1280px) and (min-width: 992px) {
+                                .rev_slider .btn-setting {
+                                    border: none;
+                                    margin-top: 0px;
+                                }
+                            }
+                            
+                            @media (max-width: 500px) {
+                                .tp-caption .motivation {
+                                    font-size: 26px;
+                                }
+                            }
+                            
+                            @media (max-width: 450px) {
+                                #motivation {
+                                    display: none;
+                                }
+                            }
+                            
+                            @media (min-width: 450px) {
+                                #responsive-motivation {
+                                    display: none;
+                                }
+                            }
+                            
+                            @media (min-width: 450px) {
+                                #responsive-motivation {
+                                    display: block !important;
+                                }
                             }

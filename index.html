@@ -155,12 +155,17 @@
                         <!-- LAYERS -->
 
                         <!-- LAYER Text -->
-                        <div class="tp-caption color-black egresados-shadow" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['top','top','top','top']" data-voffset="['270','200','100','55']" data-fontsize="['60','50','40','40']" data-lineheight="['75','75','75','40']"
+                        <!-- <div class="tp-caption color-black egresados-shadow" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['top','top','top','top']" data-voffset="['270','200','100','55']" data-fontsize="['60','50','40','40']" data-lineheight="['75','75','75','40']"
                             data-width="['556','556','556','300']" data-height="['none','none','none','87']" data-whitespace="nowrap" data-type="text" data-responsive_offset="on" data-frames='[{"delay":100,"split":"chars","splitdelay":0.1,"speed":1480,"split_direction":"random","frame":"0","from":"y:50px;sX:1;sY:1;opacity:0;fb:20px;","color":"rgba(0,0,0,0)","to":"o:1;fb:0;","ease":"Power4.easeInOut"},{"delay":"wait","speed":350,"frame":"999","color":"transparent","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
-                            data-textAlign="['center','center','center','center']" data-paddingtop="[90,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 10; min-width: 556px; max-width: 556px; white-space: nowrap; font-size: 60px; line-height: 75px; font-weight: 700; letter-spacing: 0px;font-family: 'Montserrat', sans-serif;">Egresados</div>
+                            data-textAlign="['center','center','center','center']" data-paddingtop="[90,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 10; min-width: 556px; max-width: 556px; white-space: nowrap; font-size: 60px; line-height: 75px; font-weight: 700; letter-spacing: 0px;font-family: 'Montserrat', sans-serif;">Egresados</div> -->
 
                         <!-- LAYER Text -->
-                        <div class="tp-caption color-pink motivation-text-shadow" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['top','top','top','top']" data-voffset="['348','260','155','98']" data-fontsize="['60','50','40','40']"
+                        <div id="motivation" class="tp-caption color-pink motivation-text-shadow" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['top','top','top','top']" data-voffset="['348','260','155','98']" data-fontsize="['60','50','40','40']"
+                            data-lineheight="['75','75','45','45']" data-width="['900','900','900','900']" data-height="['none','none','none','87']" data-whitespace="nowrap" data-type="text" data-responsive_offset="on" data-frames='[{"delay":150,"speed":1500,"frame":"0","from":"z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+                            data-textAlign="['center','center','center','center']" data-paddingtop="[30,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 10; min-width: 556px; max-width: 556px; white-space: nowrap; font-weight: 600; letter-spacing: 0px;font-family: 'Montserrat', sans-serif;">
+                            <div class="motivation" id="js-rotating">El futuro es tuyo, Juntos nada es imposible, Si podes soñarlo podes lograrlo </div>
+                        </div>
+                        <div id="responsive-motivation" class="tp-caption color-pink motivation-text-shadow" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['top','top','top','top']" data-voffset="['348','260','155','98']" data-fontsize="['60','50','40','40']"
                             data-lineheight="['75','75','45','45']" data-width="['900','900','900','900']" data-height="['none','none','none','87']" data-whitespace="nowrap" data-type="text" data-responsive_offset="on" data-frames='[{"delay":150,"speed":1500,"frame":"0","from":"z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
                             data-textAlign="['center','center','center','center']" data-paddingtop="[30,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 10; min-width: 556px; max-width: 556px; white-space: nowrap; font-weight: 600; letter-spacing: 0px;font-family: 'Montserrat', sans-serif;">
                             <div class="motivation" id="js-rotating">El futuro es tuyo, Juntos nada es imposible, Si podes soñarlo podes lograrlo </div>
@@ -175,7 +180,7 @@
                         <!-- LAYER Button -->
                         <div class="tp-caption tp-resizeme" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['170','200','90','120']" data-frames='[{"from":"y:50px;opacity:0;","speed":1000,"to":"o:1;","delay":800,"ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[175%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"},{"frame":"hover","speed":"300","ease":"Power1.easeInOut","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgba(255, 255, 255, 1.00);bc:rgba(255, 255, 255, 1.00);bw:2px 2px 2px 2px;"}]'
                             data-textAlign="['center','center','center','center']" data-width="['160','160','160','160']" style="z-index: 10; min-width: 960px; max-width: 960px">
-                            <a href="javascript:void(0)" class=" create-btn btn-setting color-black btn-hvr-up btn-pink btn-hvr-yellow text-white link wow fadeInUp" data-wow-delay="700ms">Crea tu buzo!</a>
+                            <a href="javascript:void(0)" class=" create-btn btn-setting color-black btn-hvr-up btn-pink btn-hvr-yellow text-white link wow fadeInUp" data-wow-delay="700ms">CREA TU BUZO!</a>
                         </div>
 
                         <!-- LAYER Cylinder -->
@@ -205,7 +210,7 @@
                             data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 2;">
                             <div class="rs-looped rs-wave" data-speed="12" data-angle="90" data-radius="22px" data-origin="50% 50%">
                                 <div class="animated-wrap slider-social icon-small">
-                                    <div class="animated-element icon-box-small bg-gray-two pinterest-bg-hvr d-flex justify-content-center align-items-center">
+                                    <div class="animated-element icon-box-small bg-pinterest pinterest-bg-hvr d-flex justify-content-center align-items-center">
                                         <a class="pinterest-text-hvr" href="javascript:void(0);">
                                             <i class="fab fa-youtube font-16" aria-hidden="true"></i>
                                         </a>
@@ -221,7 +226,7 @@
 
                             <div class="rs-looped rs-wave" data-speed="12" data-angle="-90" data-radius="22px" data-origin="-50% -50%">
                                 <div class="animated-wrap slider-social icon-small">
-                                    <div class="animated-element icon-box-small bg-pink-two instagram-bg-hvr d-flex justify-content-center align-items-center">
+                                    <div class="animated-element icon-box-small bg-instagram instagram-bg-hvr d-flex justify-content-center align-items-center">
                                         <a class="instagram-text-hvr" href="javascript:void(0);">
                                             <i class="fab fa-instagram font-16" aria-hidden="true"></i>
                                         </a>
@@ -237,7 +242,7 @@
 
                             <div class="rs-looped rs-wave" data-speed="19" data-angle="45" data-radius="22px" data-origin="50% 50%">
                                 <div class="animated-wrap slider-social icon-small">
-                                    <div class="animated-element icon-box-large-two bg-yellow twitter-bg-hvr d-flex justify-content-center align-items-center">
+                                    <div class="animated-element icon-box-large-two bg-twitter twitter-bg-hvr d-flex justify-content-center align-items-center">
                                         <a class="twitter-text-hvr" href="javascript:void(0);">
                                             <i class="fab fa-twitter font-20" aria-hidden="true"></i>
                                         </a>
@@ -253,7 +258,7 @@
 
                             <div class="rs-looped rs-slideloop" data-easing="Power0.easeInOut" data-speed="12" data-xs="0" data-xe="0" data-ys="-10" data-ye="60">
                                 <div class="animated-wrap slider-social icon-small">
-                                    <div class="animated-element icon-box-large bg-pink facebook-bg-hvr d-flex justify-content-center align-items-center">
+                                    <div class="animated-element icon-box-large bg-face facebook-bg-hvr d-flex justify-content-center align-items-center">
                                         <a class="facebook-text-hvr" href="javascript:void(0);">
                                             <i class="fab fa-facebook-f font-20" aria-hidden="true"></i>
                                         </a>
