@@ -104,14 +104,18 @@
                                 }
                             }
                             
-                            @media (max-width: 450px) {
+                            @media (max-width: 449px) {
                                 #motivation {
                                     display: none;
+                                }
+                                #egresados {
+                                    display: block;
+                                    margin-top: 10%;
                                 }
                             }
                             
                             @media (min-width: 450px) {
-                                #responsive-motivation {
+                                #egresados {
                                     display: none;
                                 }
                             }
