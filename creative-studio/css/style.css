@@ -574,7 +574,7 @@ a.image {
 
 .bg-yellow,
 .hvr-bg-yellow:hover {
-    background-color: #ffc42a;
+    background-color: rgb(255, 196, 42);
 }
 
 .bg-pink,

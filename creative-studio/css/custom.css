@@ -27,14 +27,6 @@
                                 padding-top: 80px;
                             }
                             
-                            .tp-simpleresponsive img {
-                                max-width: -webkit-fill-available !important;
-                                transition: none;
-                                margin: 0;
-                                padding: 0;
-                                border: none;
-                            }
-                            
                             .motivation {
                                 /* font-size: 26px; */
                                 margin-left: auto;
@@ -83,13 +75,24 @@
                             
                             .navbar-top-default {
                                 font-weight: 800;
-                                background-color: rgba(255, 255, 255, 0.6);
+                                background-color: rgb(255, 255, 255, 0.7);
                             }
                             
                             @media (max-width: 1280px) and (min-width: 992px) {
                                 .rev_slider .btn-setting {
                                     border: none;
                                     margin-top: 0px;
+                                }
+                            }
+                            
+                            @media (max-width: 762px) {
+                                #rev_slider_8_1 img {
+                                    width: 75%;
+                                    max-width: fit-content;
+                                    transition: none;
+                                    margin: 0;
+                                    padding: 0;
+                                    border: none;
                                 }
                             }
                             
