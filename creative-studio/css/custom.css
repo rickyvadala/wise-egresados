@@ -26,7 +26,6 @@
                                 text-align: center;
                                 padding-top: 80px;
                             }
-                            /* .rev_slider img, */
                             
                             .tp-simpleresponsive img {
                                 max-width: -webkit-fill-available !important;
@@ -54,10 +53,6 @@
                             .egresados-shadow {
                                 text-shadow: 1px 1px 2px black;
                                 padding-top: 40px;
-                            }
-                            
-                            .bg-pink-two {
-                                background-color: #ffc42a;
                             }
                             
                             .bg-face {
@@ -99,7 +94,7 @@
                             }
                             
                             @media (max-width: 500px) {
-                                .tp-caption .motivation {
+                                .motivation {
                                     font-size: 26px;
                                 }
                             }
