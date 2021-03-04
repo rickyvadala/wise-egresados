@@ -1,125 +1,137 @@
-                            /*-- Use For Custom Styling --*/
-                            /* Global */
-                            
-                            @font-face {
-                                font-family: 'Bungee Inline';
-                                src: url('fonts/bungee/BungeeInline-Regular.ttf') format('truetype'), /* Safari, Android, iOS */
-                            }
-                            /* Section 1 */
-                            
-                            .background-cover-page {
-                                background: url('../img/fondoPortada3.jpg');
-                                background-position: center;
-                                background-repeat: no-repeat;
-                                background-size: cover;
-                                background-attachment: fixed;
-                            }
-                            
-                            .logo-wise {
-                                position: absolute;
-                                display: inline-block;
-                                z-index: 50;
-                                margin-left: auto;
-                                margin-right: auto;
-                                left: 0;
-                                right: 0;
-                                text-align: center;
-                                padding-top: 80px;
-                            }
-                            
-                            .motivation {
-                                /* font-size: 26px; */
-                                margin-left: auto;
-                                margin-right: auto;
-                                left: 0;
-                                right: 0;
-                                text-align: center;
-                                margin-top: 30px;
-                                color: rgb(255, 39, 89);
-                            }
-                            
-                            .motivation-text-shadow {
-                                text-shadow: 3px 3px 5px white;
-                            }
-                            
-                            .egresados-shadow {
-                                text-shadow: 1px 1px 2px black;
-                                padding-top: 40px;
-                            }
-                            
-                            .bg-face {
-                                background-color: rgb(66, 103, 178, 0.7)
-                            }
-                            
-                            .bg-twitter {
-                                background-color: rgb(0, 171, 248, 0.7)
-                            }
-                            
-                            .bg-pinterest {
-                                background-color: rgb(189, 8, 28, 0.7)
-                            }
-                            
-                            .bg-instagram {
-                                background-color: rgb(195, 42, 163, 0.7)
-                            }
-                            
-                            .create-btn {
-                                font-size: 25px;
-                                font-weight: 600;
-                            }
-                            
-                            .rev_slider .btn-setting {
-                                border: none;
-                                margin-top: 110px;
-                            }
-                            
-                            .navbar-top-default {
-                                font-weight: 800;
-                                background-color: rgb(255, 255, 255, 0.7);
-                            }
-                            
-                            @media (max-width: 1280px) and (min-width: 992px) {
-                                .rev_slider .btn-setting {
-                                    border: none;
-                                    margin-top: 0px;
-                                }
-                            }
-                            
-                            @media (max-width: 762px) {
-                                #rev_slider_8_1 img {
-                                    width: 75%;
-                                    max-width: fit-content;
-                                    transition: none;
-                                    margin: 0;
-                                    padding: 0;
-                                    border: none;
-                                }
-                            }
-                            
-                            @media (max-width: 500px) {
-                                .motivation {
-                                    font-size: 26px;
-                                }
-                            }
-                            
-                            @media (max-width: 449px) {
-                                #motivation {
-                                    display: none;
-                                }
-                                #egresados {
-                                    display: block;
-                                    margin-top: 10%;
-                                }
-                            }
-                            
-                            @media (min-width: 450px) {
-                                #egresados {
-                                    display: none;
-                                }
-                            }
-                            
-                            @media (min-width: 450px) {
-                                #responsive-motivation {
-                                    display: block !important;
-                                }
-                            }
+/*-- Use For Custom Styling --*/
+/* Global */
+
+@font-face {
+    font-family: 'Bungee Inline';
+    src: url('fonts/bungee/BungeeInline-Regular.ttf') format('truetype'), /* Safari, Android, iOS */
+}
+
+/* Section 1 */
+
+.background-cover-page {
+    background: url('../img/fondoPortada3.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.background-cover-page:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: calc(100% - 70px);
+    top: 0;
+    left: 0;
+    background: linear-gradient(200deg, rgb(255, 213, 0) 0%, rgb(9, 118, 121) 50%, rgb(255, 0, 194) 100%);
+    opacity: 0.5;
+}
+
+.logo-wise {
+    position: absolute;
+    display: inline-block;
+    z-index: 50;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.motivation {
+    /* font-size: 26px; */
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    margin-top: 30px;
+    color: rgb(255, 39, 89);
+}
+
+.motivation-text-shadow {
+    text-shadow: 0 0 35px white;
+}
+
+.egresados-shadow {
+    text-shadow: 1px 1px 2px black;
+    padding-top: 40px;
+}
+
+.bg-face {
+    background-color: rgb(66, 103, 178, 0.7)
+}
+
+.bg-twitter {
+    background-color: rgb(0, 171, 248, 0.7)
+}
+
+.bg-pinterest {
+    background-color: rgb(189, 8, 28, 0.7)
+}
+
+.bg-instagram {
+    background-color: rgb(195, 42, 163, 0.7)
+}
+
+.create-btn {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.rev_slider .btn-setting {
+    border: none;
+    margin-top: 110px;
+}
+
+.navbar-top-default {
+    font-weight: 800;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+@media (max-width: 1280px) and (min-width: 992px) {
+    .rev_slider .btn-setting {
+        border: none;
+        margin-top: 0px;
+    }
+}
+
+@media (max-width: 762px) {
+    #rev_slider_8_1 img {
+        width: 75%;
+        max-width: fit-content;
+        transition: none;
+        margin: 0;
+        padding: 0;
+        border: none;
+    }
+}
+
+@media (max-width: 500px) {
+    .motivation {
+        font-size: 26px;
+    }
+}
+
+@media (max-width: 449px) {
+    #motivation {
+        display: none;
+    }
+
+    #egresados {
+        display: block;
+        margin-top: 10%;
+    }
+}
+
+@media (min-width: 450px) {
+    #egresados {
+        display: none;
+    }
+}
+
+@media (min-width: 450px) {
+    #responsive-motivation {
+        display: block !important;
+    }
+}
