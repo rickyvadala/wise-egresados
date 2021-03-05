@@ -1,4 +1,6 @@
 /*-- Use For Custom Styling --*/
+
+
 /* Global */
 
 @font-face {
@@ -6,16 +8,19 @@
     src: url('fonts/bungee/BungeeInline-Regular.ttf') format('truetype'), /* Safari, Android, iOS */
 }
 
+
 /* Section 1 */
 
 .background-cover-page {
-    background: url('../img/fondoPortada3.jpg');
+    background: url('../img/fondoPortada2.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
 }
-.background-cover-page:before {
+
+
+/* .background-cover-page:before {
     content: '';
     position: absolute;
     width: 100%;
@@ -24,7 +29,7 @@
     left: 0;
     background: linear-gradient(200deg, rgb(255, 213, 0) 0%, rgb(9, 118, 121) 50%, rgb(255, 0, 194) 100%);
     opacity: 0.5;
-}
+} */
 
 .logo-wise {
     position: absolute;
@@ -86,7 +91,15 @@
 
 .navbar-top-default {
     font-weight: 800;
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: rgb(43, 109, 202, 0.95);
+}
+
+.black.navbar-top-default .navbar-nav .nav-link {
+    color: hsl(0, 0%, 100%);
+}
+
+.header-appear .navbar-top-default {
+    background-color: rgb(43, 109, 202);
 }
 
 @media (max-width: 1280px) and (min-width: 992px) {
@@ -117,7 +130,6 @@
     #motivation {
         display: none;
     }
-
     #egresados {
         display: block;
         margin-top: 10%;
