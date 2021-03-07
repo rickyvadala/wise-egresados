@@ -574,12 +574,12 @@ a.image {
 
 .bg-yellow,
 .hvr-bg-yellow:hover {
-    background-color: rgb(255, 196, 42);
+    background-color: #ffc42a;
 }
 
 .bg-pink,
 .hvr-bg-pink:hover {
-    background-color: rgb(254, 90, 127);
+    background-color: #fe5a7f;
 }
 
 .bg-blue,
