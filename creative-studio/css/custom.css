@@ -147,3 +147,18 @@
         display: block !important;
     }
 }
+
+
+/*Seccion Diseño*/
+
+@media (min-width: 768px) {
+    .team-image4 img {
+        display: none;
+    }
+}
+
+@media (max-width: 767px) {
+    .team-image3 img {
+        display: none;
+    }
+}
